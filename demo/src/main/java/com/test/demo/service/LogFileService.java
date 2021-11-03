@@ -113,7 +113,7 @@ public class LogFileService {
     }
 
     public void getAll() {
-        fileBeanDao.findAll().forEach(v -> log.info(v.toString()));
-        eventBeanDao.findAll().forEach(v -> log.info(v.toString()));
+        //fileBeanDao.findAll().forEach(v -> log.info(v.toString()));
+        //eventBeanDao.findAll().forEach(v -> log.info(v.toString()));
     }
 }
